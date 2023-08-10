@@ -1,0 +1,18 @@
+Package: tagr
+Title: Tagging and Organizing Objects in R
+Version: 1.0.0
+Authors@R: person("Joachim", "Zuckarelli", role = c("aut", "cre"), email = "joachim@zuckarelli.de", comment = c(ORCID = "0000-0002-9280-3016"))
+Maintainer: Joachim Zuckarelli <joachim@zuckarelli.de>
+Description: 
+    Provides functions for attaching tags to R objects,
+    searching for objects based on tags, and removing tags from objects.
+    It also includes a function for removing all tags from an object, as well
+    as a function for deleting all objects with a specific tag from the R
+    environment. The package is useful for organizing and managing large
+    collections of objects in R.
+BugReports: https://github.com/jsugarelli/tagr/issues
+URL: https://github.com/jsugarelli/tagr/
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
