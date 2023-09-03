@@ -1,3 +1,8 @@
+# tagsr 1.0.1
+
+** Bug fixes**
+-   `has_tag()` wrongly delivered `TRUE` when a an object had no tags at all and `has_tag()` was called without the `...` argument.
+
 # tagsr 1.0.0
 
 ## Initial release of the tagsr package.

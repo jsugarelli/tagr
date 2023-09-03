@@ -1,6 +1,6 @@
 Package: tagr
 Title: Tagging and Organizing Objects in R
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: person("Joachim", "Zuckarelli", role = c("aut", "cre"), email = "joachim@zuckarelli.de", comment = c(ORCID = "0000-0002-9280-3016"))
 Maintainer: Joachim Zuckarelli <joachim@zuckarelli.de>
 Description: 

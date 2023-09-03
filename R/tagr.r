@@ -73,11 +73,12 @@ has_tag <- function(x, ..., envir = parent.frame()) {
 
   # get the current tags (if any)
   current_tags <- attributes(get(obj_name, envir = envir))$tags
-
-  # check if all tags are present
-  all_present <- all(c(...) %in% current_tags)
-
-  return(all_present)
+  if(!is.null(current_tags)) {
+    # check if all tags are present
+    all_present <- all(c(...) %in% current_tags)
+    return(all_present)
+  }
+  else return(FALSE)
 }
 
 
